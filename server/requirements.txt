@@ -1,0 +1,33 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+asyncpg==0.29.0
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# ETL dependencies
+polars==0.20.31
+numpy==1.24.3
+requests==2.31.0
+
+# Embedding providers
+openai>=1.6.1,<2.0.0
+cohere==4.37
+
+# LangGraph
+langgraph==0.0.20
+langchain==0.0.350
+langchain-openai==0.0.2
+
+# Utilities
+python-dateutil==2.8.2
+python-multipart==0.0.6
+python-dotenv==1.0.0
+sqlglot==27.13.2
+
+# Testing
+pytest==7.4.0
+pytest-asyncio==0.21.1
+httpx==0.25.0
