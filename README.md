@@ -1,4 +1,4 @@
-Onchain Explorer
+## Onchain Explorer
 
 Hybrid question-answering over on-chain data (and beyond): LangGraph routes each question to the best path — Semantic Search (RAG) or Natural-Language-to-SQL — and merges results into a table + narrative for fast verification and easy reading.
 
@@ -6,7 +6,7 @@ This template is designed to generalize: swap the dataset and schema to use it f
 
 Typical stack (swap as needed): OpenAI/Anthropic/OSS model, Postgres/DuckDB/SQLite, FastAPI + LangGraph, optional web UI.
 
-Quickstart
+## Quickstart
 
 Prereqs: Python 3.11+, SQL DB (Postgres or DuckDB/SQLite), Langgraph, COHERE optional.
 
